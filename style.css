@@ -1,0 +1,354 @@
+body {
+    /* background-image: url(Images/fond-gradient.jpeg);
+    background-size: cover; */
+    background-color: whitesmoke; 
+    font-family: 'Simonetta', Arial, Helvetica, sans-serif ;
+    font-size: 22px;
+    
+}
+
+.imgfond img{
+    width: 100%;
+    position: relative;
+    margin-top: 80px;
+    }
+
+
+.navbar {
+    /* background-image: url(Images/fond-gradient.jpeg); */
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+h5{
+    font-family: 'Crete Round', Serif;
+    font-size: 24px;
+	color: #444444;
+
+}
+
+a:hover {
+    
+    text-decoration:none;
+    }
+
+.cover video {
+    width: 100%;
+}
+.animation{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    animation: example infinite;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    margin: 0 auto;
+
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:-200px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:100px;}
+  75%  {background-color:green; left:-200px; top:100px;}
+  100% {background-color:red; left:-200px; top:0px;}
+  }
+main{
+    padding-top: 100px;
+}
+.corp{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-around;
+}
+.corp>div{
+   text-align: center;
+   padding: 25px;
+}
+.itemcorp1{
+  
+    border: 5px solid black;
+    border-top: none;
+    border-left: none;
+  
+}
+.itemcorp2{
+    border: solid 5px;
+    border-bottom: none;
+    border-right: none;
+    
+}
+.newsletter{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+} 
+
+.newsletter>div{
+    text-align: center;
+
+}
+
+/*------------------ Cards--------------------*/
+.cartaMestra {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: space-around;
+    margin: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.carta {
+    
+    
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cartaImg {
+    border: solid white 1px;
+    border-radius: 10px;
+    width: 80%;
+    height: auto;
+    margin: 1em;
+}
+
+.cartaTexto {
+    width: 100%;
+    height: auto;
+}
+
+
+/*----------------- conextion/ Inscription-------------*/
+
+.connect{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    margin: 3%;
+    padding: 1%;
+}
+.inscrit{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    margin: 3%;
+    padding: 1%;
+}
+.connextion{
+
+}
+.inscription{
+    padding: 5%;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+.milieu{
+    padding: 2%;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+.dansMilieu{
+    margin: 10%;
+}
+
+
+/*------------------------- Contact -------------------*/
+.contact {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+}
+
+.contactImg img {
+    width: 100%;
+    height: auto;
+}
+.contactForm{
+    padding: 5%;
+    margin-bottom: 20%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.contactForm form button{
+    margin-top: 5%;
+}
+.contactImg{
+    padding: 5%;
+    margin-bottom: 20%;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+
+}
+
+/*---------------  Langages ----------------------*/
+
+.langages {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-around;
+    border: solid rgb(216, 213, 213) 1px;
+    border-top: none;
+    padding-top: 10px;
+}
+
+.langages>div {
+    border: solid white 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    /* background-color: rgb(208, 236, 232); */
+    text-align: center;
+}
+.toutlang{
+    margin: 5%;
+    margin-top: none;
+    padding: 5%;
+    border: solid 2px black;
+    border-bottom: none;
+    border-right: none;
+}
+.langages>div:hover .nomlng{
+    opacity: 1;
+}
+
+
+.langages img {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    
+}
+.contlng{
+    position: relative;
+}
+.nomlng{
+    position: absolute;
+    top: 0px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+}
+.boutons{
+    padding: 5%;
+    border: solid rgb(216, 213, 213) 1px;
+    border-bottom: none;
+}
+
+
+
+
+
+
+/*--------------     footer    ------------------*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; 
+    margin-top: 10%;
+}
+
+footer div li {
+    display: inline-flex;
+    list-style-type: none;
+    text-align: center;
+    margin: 5px;
+}
+ 
+
+footer div ul a {
+    text-decoration: none;
+    color: black;
+
+}
+footer div a img{
+    width: 100px;
+    padding: 0 20px 0 20px;
+}
+.logofot img{
+    width: 40px;
+     
+    
+}
+.logofot{
+    
+    border-top: black 2px solid;
+    text-align: center;
+   
+}
+footer div:first-child{
+    border-top: black 2px solid;
+    border-right: black 2px solid;
+}
+footer div:last-child{
+    border-top: black 2px solid;
+    border-left: black 2px solid;
+
+}
+footer div{
+    padding: 1%;
+    margin: 1%;
+}
+
+/*------------Responsine---------------*/
+
+@media screen and (max-width: 768px) {
+    .cartaMestra {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        justify-content: space-evenly;
+    }
+    .carta {
+        margin-bottom: 10px;
+    }
+    .langages {
+        display: grid;
+        grid-template-columns: 27% 27% 27%;
+        justify-content: space-evenly;
+    }
+    .corp{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .cartaMestra {
+        display: grid;
+        grid-template-columns: 70%;
+        justify-content: space-evenly;
+    }
+    .carta {
+        margin-bottom: 10px;
+    }
+    .contact {
+        display: grid;
+        grid-template-columns: 80%;
+    }
+    .contact div {
+        margin: auto;
+    }
+    .langages {
+        display: grid;
+        grid-template-columns: 38% 38%;
+        justify-content: space-evenly;
+    }
+    .corp{
+        display: grid;
+        grid-template-columns: 90%;
+        justify-content: space-around;
+    }
+}
